@@ -133,7 +133,7 @@ int main(void)
                 DrawText("Score: ", 10, 10, 20, DARKGRAY);
                 char lengthStr[3];
                 sprintf(lengthStr, "%d", head.length);
-                DrawText(lengthStr, 70, 10, 20, DARKGRAY);
+                DrawText(lengthStr, 90, 10, 20, DARKGRAY);
             } else {          
                 ClearBackground(RAYWHITE);
                 DrawSnake(head, blockSize);
@@ -141,7 +141,7 @@ int main(void)
                 DrawText("Score: ", 10, 10, 20, DARKGRAY);
                 char lengthStr[3];
                 sprintf(lengthStr, "%d", head.length);
-                DrawText(lengthStr, 85, 10, 20, DARKGRAY);
+                DrawText(lengthStr, 90, 10, 20, DARKGRAY);
             }
 
         EndDrawing();
